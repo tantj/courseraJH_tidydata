@@ -13,7 +13,7 @@ _bold_Functions Used
 pkgTest - Called to check for required packages
 create_list - Used to generate list of variables and for data assignment.
 
-_bold_Methodology
+*Methodology*
 1. Checks for dplyr and reshape2 packages. If absent, downloads and installs packages.
 2. Asks user for directory where data is stored. Sets the directory as working directory. Creates variables including all data through the function create_list
 3. Prepares data for binding by renaming files with Activity and Subject data.
