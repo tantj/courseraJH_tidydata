@@ -10,8 +10,8 @@ Course Project for Getting and Cleaning Data by John Hopkins on Coursera. Inputs
 a UCI HAR dataset and produces a tidy dataset.  
 
 <h1>Functions Used</h1>  
-pkgTest - Called to check for required packages
-create_list - Used to generate list of variables and for data assignment.
+pkgTest - Called to check for required packages  
+create_list - Used to generate list of variables and for data assignment.  
 
 <h1>Methodology</h1>  
 1. Checks for dplyr and reshape2 packages. If absent, downloads and installs packages.  
